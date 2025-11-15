@@ -355,43 +355,55 @@
       </div>
     </section>
 
-    <!-- Sección: Contacto -->
-    <section id="contacto" class="py-5 bg-gradient">
+        <!-- Sección: Contacto -->
+    <section id="contacto" class="py-5" 
+      style="background: linear-gradient(135deg, rgba(79,70,229,0.12) 0%, rgba(6,182,212,0.10) 100%);">
+      
       <div class="container">
-        <div class="text-center text-white mb-5 reveal-up">
-          <h2 class="fw-bold display-5 mb-3">¿Listo para comenzar?</h2>
-          <p class="lead mb-4">Contáctanos para más información sobre el proyecto</p>
-          
-          <a href="mailto:pvcg.contacto@gmail.com" class="btn btn-light btn-lg shadow-lg">
+
+        <div class="text-center mb-5 reveal-up">
+          <h2 class="fw-bold display-5 mb-3" style="color: var(--dark-color);">
+            ¿Listo para comenzar?
+          </h2>
+          <p class="lead mb-4" style="color: var(--text-muted);">
+            Contáctanos para más información sobre el proyecto
+          </p>
+
+          <a href="mailto:contacto.rehabsolutions@gmail.com" 
+            class="btn btn-primary btn-lg shadow-lg px-4">
             <i class="bi bi-envelope me-2"></i>Enviar correo
           </a>
         </div>
 
-        <div class="row mt-5 text-white reveal-up" style="animation-delay: 0.2s;">
-          <div class="col-md-4 text-center mb-4">
+        <!-- Tarjetas -->
+        <div class="row mt-5 text-center reveal-up" style="animation-delay: 0.2s;">
+
+          <!-- Email -->
+          <div class="col-md-6 mb-4">
             <div class="contact-info-card">
-              <i class="bi bi-envelope-fill display-4 mb-3"></i>
-              <h5 class="fw-bold">Email</h5>
-              <p class="mb-0">pvcg.contacto@gmail.com</p>
+              <i class="bi bi-envelope-fill display-4 mb-3" style="color: var(--primary-color);"></i>
+              <h5 class="fw-bold" style="color: var(--dark-color);">Email</h5>
+              <p class="mb-0" style="color: var(--text-color);">
+                contacto.rehabsolutions@gmail.com
+              </p>
             </div>
           </div>
-          <div class="col-md-4 text-center mb-4">
+
+          <!-- Ubicación -->
+          <div class="col-md-6 mb-4">
             <div class="contact-info-card">
-              <i class="bi bi-geo-alt-fill display-4 mb-3"></i>
-              <h5 class="fw-bold">Ubicación</h5>
-              <p class="mb-0">Lima, Perú</p>
+              <i class="bi bi-geo-alt-fill display-4 mb-3" style="color: var(--primary-color);"></i>
+              <h5 class="fw-bold" style="color: var(--dark-color);">Ubicación</h5>
+              <p class="mb-0" style="color: var(--text-color);">Lima, Perú</p>
             </div>
           </div>
-          <div class="col-md-4 text-center mb-4">
-            <div class="contact-info-card">
-              <i class="bi bi-github display-4 mb-3"></i>
-              <h5 class="fw-bold">Proyecto</h5>
-              <p class="mb-0">Código abierto</p>
-            </div>
-          </div>
+
         </div>
+
       </div>
     </section>
+
+
 
     <!-- Footer -->
     <footer class="footer bg-dark text-white py-5">
